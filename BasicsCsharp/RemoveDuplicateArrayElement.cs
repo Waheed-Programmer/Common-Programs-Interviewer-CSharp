@@ -10,6 +10,8 @@ namespace BasicsCsharp
     {
         static void Main(string[] args)
         {
+            // Remove All duplicate Element in array
+
             int[] arr = { 1, 2, 3, 4, 5, 5, 4, 6 };
             int[] dist = arr.Distinct().ToArray();
             Array.ForEach(dist, v => Console.WriteLine(v));
