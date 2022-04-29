@@ -10,6 +10,7 @@ namespace BasicsCsharp
     {
         static void Main(string[] args)
         {
+			//Count Vowel in array
 			int vowel = 0;
 			int cons = 0;
 			string[] arr = new string[] { "'a','A','e','E','i','I','o','O','g','m'" };
@@ -26,7 +27,30 @@ namespace BasicsCsharp
 				}
 			}
 
-			Console.WriteLine(vowel);
+			Console.Write("\nVowels in the string: {0}\n", vowel);
+
+			Console.WriteLine("====================================>");
+
+			//Count vowel in string
+			string myStr;
+			int len, vowel_count, cons_count;
+			myStr = "Avengers";
+			vowel_count = 0;
+			cons_count = 0;
+			// find length
+			len = myStr.Length;
+			for (int i = 0; i < len; i++)
+			{
+				if (myStr[i] == 'a' || myStr[i] == 'e' || myStr[i] == 'i' || myStr[i] == 'o' || myStr[i] == 'u' || myStr[i] == 'A' || myStr[i] == 'E' || myStr[i] == 'I' || myStr[i] == 'O' || myStr[i] == 'U')
+				{
+					vowel_count++;
+				}
+				else
+				{
+					cons_count++;
+				}
+			}
+			Console.Write("\nVowels in the string: {0}\n", vowel_count);
 		}
     }
 }
