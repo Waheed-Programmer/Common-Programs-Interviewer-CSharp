@@ -37,6 +37,16 @@ namespace BasicsCsharp
                 }
             }
 
+            Console.WriteLine("========================>");
+
+            //Combine two array with out duplicate elements
+
+            string[] animals = { "Cat", "Alligator", "Fox", "Donkey", "Cat" };
+            string[] birds = { "Sparrow", "Peacock", "Dove", "Crow" };
+
+            var all = animals.Union(birds).ToArray();
+            Array.ForEach(all, s => Console.WriteLine(s));
+
         }
     }
 }
