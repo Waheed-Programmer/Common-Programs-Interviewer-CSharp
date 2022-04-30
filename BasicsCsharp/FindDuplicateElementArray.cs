@@ -47,6 +47,17 @@ namespace BasicsCsharp
             var all = animals.Union(birds).ToArray();
             Array.ForEach(all, s => Console.WriteLine(s));
 
+            Console.WriteLine("==============================>");
+
+
+            //using linq to find value max. min , sum or averge
+
+            int[] nums = new int[5] { 10, 15, 16, 8, 6 };
+
+            Console.WriteLine(nums.Max());
+            Console.WriteLine(nums.Min());
+            Console.WriteLine(nums.Sum());
+            Console.WriteLine(nums.Average());
         }
     }
 }
