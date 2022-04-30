@@ -32,11 +32,9 @@ namespace BasicsCsharp
 			Console.WriteLine("====================================>");
 
 			//Count vowel in string
-			string myStr;
-			int len, vowel_count, cons_count;
-			myStr = "Avengers";
-			vowel_count = 0;
-			cons_count = 0;
+			string myStr = "Avengers"; 
+			int len, vowel_count=0, cons_count=0;
+						
 			// find length
 			len = myStr.Length;
 			for (int i = 0; i < len; i++)
