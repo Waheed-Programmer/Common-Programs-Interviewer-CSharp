@@ -40,6 +40,12 @@ namespace BasicsCsharp
 
             //Console.WriteLine("After Clear mehtod the total Elements Present in Stack is : {0}", +myStack.Count());
 
+            string[] arr = new string[] {"Welcome","Back", "Now" };
+            Stack<string> mstack = new Stack<string>(arr);
+            foreach (var item in mstack)
+            {
+                Console.WriteLine(item+",");
+            }
 
         }
     }
