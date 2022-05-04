@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -31,11 +32,13 @@ namespace BasicsCsharp
 
             Console.WriteLine("After Pop the total Elements Present in Stack is : {0}", +myStack.Count());
 
-            //Remove all element inn stack is 
+            Console.WriteLine("Topmost element of my_stack " +
+                              "is: {0}", myStack.Peek());
+            ////Remove all element inn stack is 
 
-            myStack.Clear();
+            //myStack.Clear();
 
-            Console.WriteLine("After Clear mehtod the total Elements Present in Stack is : {0}", +myStack.Count());
+            //Console.WriteLine("After Clear mehtod the total Elements Present in Stack is : {0}", +myStack.Count());
 
 
         }
