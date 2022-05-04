@@ -54,6 +54,7 @@ namespace BasicsCsharp
 
             int[] nums = new int[5] { 10, 15, 16, 8, 6 };
 
+            Console.WriteLine(nums.Reverse());
             Console.WriteLine(nums.Max());
             Console.WriteLine(nums.Min());
             Console.WriteLine(nums.Sum());
