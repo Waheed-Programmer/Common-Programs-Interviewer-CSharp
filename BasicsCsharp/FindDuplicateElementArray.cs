@@ -53,7 +53,7 @@ namespace BasicsCsharp
             //using linq to find value max. min , sum or averge
 
             int[] nums = new int[5] { 10, 15, 16, 8, 6 };
-
+            Array.Sort(nums);
             Console.WriteLine(nums.Reverse());
             Console.WriteLine(nums.Max());
             Console.WriteLine(nums.Min());
